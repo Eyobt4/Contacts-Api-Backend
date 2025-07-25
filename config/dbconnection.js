@@ -1,3 +1,4 @@
+//connect to data base using mongoose connection string
 const mongoose = require("mongoose");
 
 const connectDb = async ()=>{
