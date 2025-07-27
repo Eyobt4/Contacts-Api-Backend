@@ -19,9 +19,12 @@
   },
   "homepage": "https://github.com/Eyobt4/Contacts-Api-Backend#readme",
   "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dcrypt": "^0.0.2",
     "dotenv": "^17.2.0",
     "express": "^5.1.0",
     "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.16.4"
   },
   "devDependencies": {

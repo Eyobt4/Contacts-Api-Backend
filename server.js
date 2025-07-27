@@ -9,6 +9,7 @@ const port = process.env.PORT;
 connectDb();
 app.use(express.json());
 app.use("/api/contacts",require("./routes/contactsRoute"));
+app.use("/api/user",require("./routes/userRouter"));
 app.use(contactSchema)
 
 
