@@ -1,3 +1,4 @@
+//adding new contact schema from body using json
 const mongoose = require("mongoose");
 
 const contactSchema = mongoose.Schema({
